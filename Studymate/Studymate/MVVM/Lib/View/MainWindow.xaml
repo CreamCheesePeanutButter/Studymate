@@ -7,6 +7,36 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Name="Menu" Grid.Row="0">
+            <Menu Name="MainMenu" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_New" />
+                    <MenuItem Header="_Open" />
+                    <MenuItem Header="_Save" />
+                    <Separator />
+                    <MenuItem Header="_Exit" Click="Exit_Click"/>
+                </MenuItem>
+                <MenuItem Header="_Edit">
+                    <MenuItem Header="_Undo" />
+                    <MenuItem Header="_Redo" />
+                </MenuItem>
+                <MenuItem Header="_Help">
+                    <MenuItem Header="_About" Click="About_Click"/>
+                </MenuItem>
+            </Menu>
+        </Grid>
+        <Grid Row ="1"  Name="DashBoardPage" Visibility="Visible" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Welcome to Studymate!" FontSize="24" FontWeight="Bold" Margin="10" Grid.Row="0"/>
+                <TextBlock Text="This is your dashboard where you can manage your study materials." Margin="10" Grid.Row="1"/>
 
+        </Grid>
     </Grid>
 </Window>
