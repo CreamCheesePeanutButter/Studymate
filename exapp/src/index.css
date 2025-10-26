@@ -3,8 +3,16 @@
   --secondary-color: #ff9800;
   --background-color: #f5f5f5;
   --text-color: #333333;
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: 800px;
+  margin: 0, 0, 0, 0;
+}
+html,
+body {
+  height: 500px; /* Example height */
+  width: 800px; /* Example width */
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrollbar if content exceeds width */
+  overflow-y: hidden;
 }

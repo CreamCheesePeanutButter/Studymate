@@ -2,7 +2,7 @@ function myCheckBox() {
   return (
     <input
       type="checkbox"
-      //   checked={isChecked}
+      // checked={isChecked}
       //   onChange={handleCheckboxChange}
     />
   );

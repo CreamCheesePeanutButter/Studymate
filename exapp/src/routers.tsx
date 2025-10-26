@@ -7,4 +7,10 @@ export class Routers {
       element: <Homepage />,
     },
   ]);
+  //Haven't finish this page yet
+  about = createHashRouter([
+    {
+      path: "/about",
+    },
+  ]);
 }
