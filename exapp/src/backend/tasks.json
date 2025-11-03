@@ -1,3 +1,30 @@
-{
-    
-}
+[
+  {
+    "id": 1,
+    "checked": false,
+    "title": "Finish project report",
+    "description": "Complete the final draft of the project report and submit it to the supervisor.",
+    "deadline": "2025-11-05T17:00:00Z"
+  },
+  {
+    "id": 2,
+    "checked": true,
+    "title": "Team meeting",
+    "description": "Discuss the progress of the new feature and assign next week’s tasks.",
+    "deadline": "2025-11-03T14:00:00Z"
+  },
+  {
+    "id": 3,
+    "checked": false,
+    "title": "Code review",
+    "description": "Review pull requests from the backend team before merging.",
+    "deadline": "2025-11-06T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "checked": false,
+    "title": "Update documentation",
+    "description": "Add new endpoints and data models to the API documentation.",
+    "deadline": "2025-11-10T23:59:00Z"
+  }
+]

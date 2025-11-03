@@ -1,12 +1,4 @@
-function myCheckBox() {
-  return (
-    <input
-      type="checkbox"
-      // checked={isChecked}
-      //   onChange={handleCheckboxChange}
-    />
-  );
-}
+import { TaskRegion } from "../components/taskmanager";
 
 export function Homepage() {
   return (
@@ -16,9 +8,7 @@ export function Homepage() {
       }}
     >
       <h4>Welcome to the Homepage</h4>
-      <ul>
-        <li>{myCheckBox()}</li>
-      </ul>
+      <TaskRegion />
     </div>
   );
 }

@@ -8,9 +8,9 @@ export class Routers {
     },
   ]);
   //Haven't finish this page yet
-  about = createHashRouter([
-    {
-      path: "/about",
-    },
-  ]);
+  // about = createHashRouter([
+  //   {
+  //     path: "/about",
+  //   },
+  // ]);
 }

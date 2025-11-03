@@ -1,10 +1,12 @@
+// import { Link } from "react-router-dom";
+
 export function NavBar() {
   return (
     <ul
       style={{
         margin: 0,
         width: "100%",
-        listStyleType: "none",
+        listStyleType: "none", // remove dot form
         display: "flex",
         padding: "2%",
         background: "grey",
@@ -16,7 +18,16 @@ export function NavBar() {
       //   paddingRight: "5%",
       // }}
       >
-        <button>Home</button>
+        {/* <Link to="/"> */}
+        <button
+          style={{
+            height: "100%",
+            backgroundColor: "grey",
+          }}
+        >
+          Home
+        </button>
+        {/* </Link> */}
       </li>
       <li
         style={{
@@ -24,7 +35,9 @@ export function NavBar() {
           //   paddingRight: "5%",
         }}
       >
-        <button>Add Task</button>
+        {/* <Link to="/about"> */}
+        <button>About</button>
+        {/* </Link> */}
       </li>
     </ul>
   );
